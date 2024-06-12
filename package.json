@@ -11,8 +11,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "cspell": "^8.8.4"
-  }
+  "license": "ISC"
 }

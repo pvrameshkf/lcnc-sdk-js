@@ -1,0 +1,6 @@
+{
+  "editor.autoIndent": "full",
+  "editor.formatOnSave": true,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "cSpell.configFile": "${workspaceFolder}/cspell.json"
+}
