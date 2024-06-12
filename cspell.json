@@ -1,0 +1,47 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "words": [
+      "kissflow",
+      "kf",
+      "sdk",
+      "pnpm",
+      "monorepo",
+      "microservices"
+    ],
+    "ignoreWords": [],
+    "ignorePaths": [
+      "node_modules",
+      "dist"
+    ],
+    "dictionaries": ["typescript", "node"],
+    /* "dictionaryDefinitions": [
+      {
+        "name": "custom-words",
+        "path": "./custom-words.txt",
+        "addWords": true
+      }
+    ], */
+    "ignoreRegExpList": [
+      "/\\/\\/.*$/", // Ignore comments
+      "/https?:\\/\\/[^\\s]+/", // Ignore URLs
+      "/^\\/\\*.*\\*\\//" // Ignore multi-line comments
+    ],
+    "patterns": [
+      {
+        "name": "camelCase",
+        "pattern": "/[a-z]+([A-Z][a-z]+)+/"
+      }
+    ],
+    "overrides": [
+      {
+        "filename": "**/*.ts",
+        "language": "en"
+      },
+      {
+        "filename": "**/*.json",
+        "language": "en"
+      }
+    ]
+  }
+  
